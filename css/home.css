@@ -1,0 +1,15 @@
+body{
+  background-color: wheat;
+    color:black;
+    font-style: normal;
+    font-family: sans-serif;
+    
+}
+#socialMediaLinks{
+    height: 40;
+    width: 40;
+}
+img{
+  height: 40;
+  width: 40;  
+}
