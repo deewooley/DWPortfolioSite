@@ -1,0 +1,10 @@
+body{
+background-color: wheat;
+font-family: sans-serif;
+}
+
+.dwPhoto{
+    margin-right: auto;
+    margin-left: auto;
+    width:60%;
+}
