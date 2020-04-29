@@ -1,13 +1,66 @@
 body{
-  background-color: wheat;
-    color:black;
-    font-style: normal;
-    font-family: sans-serif;
-    text-align: center;
+    background-color:black;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: silver;
     
-}
+    }
+    h1{
+        text-align: center;
+        font-family: korolev-compressed,sans-serif;
+        font-weight: 700;
+        font-style: normal;
+       font-size: 50px;
+       margin-bottom: 5px;
+       font-kerning: 5px;
+    }
+    h2{
+        color: grey;
+        font-size: xx-small;
+      
+    }
+
 ul{text-align:left;}
-.socialMediaLinks {
-    margin-left: auto;
-    margin-right: auto;
+
+#socialLinks{
+    text-align: center;
 }
+#topName{
+    text-decoration: underline;
+    margin-top: 20%;
+}
+#underName{
+    text-align: center;
+    font-size: small;
+    margin-bottom: 20%;
+}
+a{
+    padding-left: 5%;
+    color: white;
+    text-decoration: none;
+}
+#homeLink{
+    text-decoration: line-through;
+   display: inline;
+}
+
+li{
+  display: inline;
+  margin-right: 10%;
+ 
+}
+  
+  .dwPhoto{
+      margin-right: auto;
+      margin-left: auto;
+      width:100%;
+  }
+  hr{
+    width: 80%;
+}
+
+#homeResume{
+    text-align: center;
+    text-decoration: underline;
+}
+

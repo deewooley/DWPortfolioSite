@@ -7,15 +7,30 @@ color: white;
 }
 h1{
     text-align: center;
+    display: inline;
 }
 
 .dwPhoto{
     margin-right: auto;
     margin-left: auto;
-    width:100%;
+    width:50%;
+    
 }
 br{
     margin-top: 50px;
     margin-bottom: 5px;
     line-break: auto;
 }
+li{
+    display: inline;
+    margin-left: auto;
+    margin-right: 5%;
+  
+  }
+  p{
+      display: inline;
+    }
+    ul{
+        text-align: center;
+    }
+  
