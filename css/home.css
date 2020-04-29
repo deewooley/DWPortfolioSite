@@ -1,6 +1,6 @@
 body{
     background-color:black;
-    margin-left: 5%;
+    margin-left: 2%;
     margin-right: 5%;
     color: silver;
     
@@ -10,34 +10,44 @@ body{
         font-family: korolev-compressed,sans-serif;
         font-weight: 700;
         font-style: normal;
-       font-size: 50px;
+       font-size: 40px;
        margin-bottom: 5px;
-       font-kerning: 5px;
     }
     h2{
         color: grey;
         font-size: xx-small;
-      
     }
 
-ul{text-align:left;}
+ul{text-align:right;}
 
 #socialLinks{
+    padding-top: 2%;
     text-align: center;
+    letter-spacing: 1px;
 }
 #topName{
-    text-decoration: underline;
-    margin-top: 20%;
+    
+    margin-top: 25%;
+    text-align: center;
+    letter-spacing: 10px;
+    
 }
 #underName{
     text-align: center;
+    
     font-size: small;
     margin-bottom: 20%;
+    letter-spacing: 10px;
+
+}
+#selectedWorks{
+    text-align: left;
 }
 a{
-    padding-left: 5%;
+   
     color: white;
     text-decoration: none;
+    padding-right: 15px;
 }
 #homeLink{
     text-decoration: line-through;
@@ -58,9 +68,7 @@ li{
   hr{
     width: 80%;
 }
-
-#homeResume{
+p{
     text-align: center;
-    text-decoration: underline;
+color: rgb(74, 74, 74);
 }
-
