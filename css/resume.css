@@ -5,15 +5,16 @@ margin-left: 5%;
 margin-right: 5%;
 color: white;
 }
+
 h1{
     text-align: center;
     display: inline;
 }
-
+ 
 .dwPhoto{
     margin-right: auto;
     margin-left: auto;
-    width:50%;
+    width:40%;
     
 }
 br{
@@ -24,13 +25,50 @@ br{
 li{
     display: inline;
     margin-left: auto;
-    margin-right: 5%;
+    font-family: serif;
   
   }
   p{
       display: inline;
     }
-    ul{
-        text-align: center;
+    
+    #homeLink{
+        text-decoration: line-through;
+       display: inline;
     }
+    
+ 
+    h2{
+        color: grey;
+        font-size: xx-small;
+        margin-left: 2%;
+    margin-right: 5%;
+    text-decoration: none;
+    }
+
+ul{
+    text-align:right;
+    text-decoration: none;}
+
+#socialLinks{
+  
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+li{
+  display: inline;
+  margin-right: 5%;
+ 
+}
+ul{
+    text-align:right;}
   

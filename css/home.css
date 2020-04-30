@@ -1,9 +1,44 @@
 body{
     background-color:black;
-    
     color: silver;
-    
+    margin-top: 5%;
     }
+
+    /*Header- Logo and Navigation Bar*/
+    img{
+        
+        padding-left: 2%;
+        
+        display: inline;
+
+    }
+    #homeLink{
+        text-decoration: line-through;
+        display: inline;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            padding-right: 10px;
+           
+           
+        }
+        
+        li{
+            display: inline;
+            margin-right: 5%;
+           
+           
+          }
+          ul{
+              text-align:right;
+              display: inline;
+            }
+
+
+/*Header- Logo and Navigation Bar*/
+
+
     h1{
         text-align: center;
         font-family: korolev-compressed,sans-serif;
@@ -21,16 +56,10 @@ body{
     margin-right: 5%;
     }
 
-ul{
-    text-align:right;}
 
-#socialLinks{
-  
-    text-align: center;
-    letter-spacing: 1px;
-}
+
+
 #topName{
-    
     margin-top: 25%;
     text-align: center;
     letter-spacing: 10px;
@@ -38,45 +67,34 @@ ul{
 }
 #underName{
     text-align: center;
-    
     font-size: small;
     margin-bottom: 20%;
     letter-spacing: 10px;
 
 }
-#selectedWorks{
-    text-align: left;
-}
-a{
-   
-    color: white;
-    text-decoration: none;
-    padding-right: 10px;
-}
-#homeLink{
-    text-decoration: line-through;
-   display: inline;
-}
 
-li{
-  display: inline;
-  margin-right: 5%;
- 
-}
+
+
+
+
+
   
-  .dwPhoto{
-      margin-right: auto;
-      margin-left: auto;
-      width:100%;
-  }
   hr{
     width: 80%;
+}
+
+
+#footer{
+    text-align: center;
+    letter-spacing: 1px;
+    position: fixed;
+  bottom: 5%;
+  margin: auto;
+  width: 100%;
+  
 }
 p{
     text-align: center;
 color: rgb(74, 74, 74);
-}
-img{
-    padding-left: 2%;
-padding-right: 60%;
+
 }

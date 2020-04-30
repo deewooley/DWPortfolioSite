@@ -1,0 +1,83 @@
+body{
+    background-color:black;
+    
+    color: silver;
+    
+    }
+    h1{
+        text-align: center;
+        font-family: korolev-compressed,sans-serif;
+        font-weight: 700;
+        font-style: normal;
+       font-size: 40px;
+       margin-bottom: 5px;
+       margin-left: 2%;
+    margin-right: 5%;
+    }
+    h2{
+        color: grey;
+        font-size: xx-small;
+        margin-left: 2%;
+    margin-right: 5%;
+    }
+
+ul{
+    text-align:right;}
+
+#socialLinks{
+  
+    text-align: center;
+    letter-spacing: 1px;
+}
+#topName{
+    
+    margin-top: 25%;
+    text-align: center;
+    letter-spacing: 10px;
+    
+}
+#underName{
+    text-align: center;
+    
+    font-size: small;
+    margin-bottom: 20%;
+    letter-spacing: 10px;
+
+}
+#selectedWorks{
+    text-align: left;
+}
+a{
+   
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+}
+#homeLink{
+    text-decoration: line-through;
+   display: inline;
+}
+
+li{
+  display: inline;
+  margin-right: 5%;
+ 
+}
+
+  
+  .dwPhoto{
+      margin-right: auto;
+      margin-left: auto;
+      width:100%;
+  }
+  hr{
+    width: 80%;
+}
+p{
+    text-align: center;
+color: rgb(74, 74, 74);
+}
+img{
+    padding-left: 2%;
+padding-right: 60%;
+}
