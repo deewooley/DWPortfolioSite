@@ -1,83 +1,111 @@
 body{
     background-color:black;
-    
     color: silver;
-    
-    }
-    h1{
-        text-align: center;
-        font-family: korolev-compressed,sans-serif;
-        font-weight: 700;
-        font-style: normal;
-       font-size: 40px;
-       margin-bottom: 5px;
-       margin-left: 2%;
-    margin-right: 5%;
-    }
-    h2{
-        color: grey;
-        font-size: xx-small;
-        margin-left: 2%;
-    margin-right: 5%;
+    margin-top: 2%;
     }
 
-ul{
-    text-align:right;}
+img{
+        padding-left: 2%;
+        display: inline;
+    }
 
-#socialLinks{
+h1{
+    text-align: center;
+    font-family: korolev-compressed,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+   font-size: 40px;
+
+
+
+   min-height: 10em;
+   display: table-cell;
+   vertical-align: middle;
+   letter-spacing: 10px; 
+}
+h3{
   
+    font-family: korolev-compressed,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-left: 30px;
+   
+}
+
+#allWorks{
+    top: 10%;
+    margin-top: 10%;
+
+}
+
+#selectedWorks{
+  margin-top: auto;
+    text-align: center;
+    position: relative;
+     
+    left: 50%;
+    transform: translateX(-50%);
+    min-height: 10em;
+    vertical-align: middle; 
+    font-family: korolev-compressed,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+   font-size: 40px;
+   min-height: 10em;
+   letter-spacing: 10px; 
+   
+}
+
+
+
+h4{
+    
+    display: inline;
+   
+}
+
+a{
+        color: white;
+        text-decoration: none;
+        padding-right: 10px;   
+        }
+        
+li{
+            display: inline;
+            margin-right: 5%;              
+}
+
+ li{
+            float: right;
+          }
+          
+          ul{
+              text-align:right;
+              display: inline;
+
+            }
+
+
+#footer{
     text-align: center;
     letter-spacing: 1px;
-}
-#topName{
-    
-    margin-top: 25%;
-    text-align: center;
-    letter-spacing: 10px;
-    
-}
-#underName{
-    text-align: center;
-    
-    font-size: small;
-    margin-bottom: 20%;
-    letter-spacing: 10px;
-
-}
-#selectedWorks{
-    text-align: left;
-}
-a{
-   
-    color: white;
-    text-decoration: none;
-    padding-right: 10px;
-}
-#homeLink{
-    text-decoration: line-through;
-   display: inline;
-}
-
-li{
-  display: inline;
-  margin-right: 5%;
- 
-}
-
+    position: fixed;
+  bottom: 5%;
+  margin: auto;
+  width: 100%;
   
-  .dwPhoto{
-      margin-right: auto;
-      margin-left: auto;
-      width:100%;
-  }
-  hr{
-    width: 80%;
 }
 p{
     text-align: center;
 color: rgb(74, 74, 74);
+
 }
-img{
-    padding-left: 2%;
-padding-right: 60%;
+#workNavigation{
+    width: 100%;
+    position: relative;
+    float:left;
+    margin-right: 0px;
+   
 }
