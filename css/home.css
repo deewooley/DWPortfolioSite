@@ -7,8 +7,10 @@ body{
     /*Header- Logo and Navigation Bar*/
     img{
         
-        padding-left: 2%;
         display: inline;
+    }
+    #homeIcon{
+        padding-left: 2%;
     }
     #homeLink{
         text-decoration: line-through;
