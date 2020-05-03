@@ -1,19 +1,23 @@
 body{
 background-color: black;
 font-family: sans-serif;
+margin-top: 2%;
 margin-left: 5%;
-margin-right: 5%;
+
 color: white;
 }
 
 h1{
     text-align: center;
     display: inline;
+   
+
 }
  
 .dwPhoto{
     margin-right: auto;
     margin-left: auto;
+    margin-top: 100px;
     width:40%;
     
 }
@@ -24,12 +28,16 @@ br{
 }
 li{
     display: inline;
-    margin-left: auto;
+  
     font-family: serif;
   
   }
-  p{
-      display: inline;
+
+    h6{
+      text-align: center;
+  color: rgb(74, 74, 74);
+ font-size: small;
+
     }
     
     #homeLink{
@@ -37,17 +45,19 @@ li{
        display: inline;
     }
     
- 
+ #topName{
+   margin-top: 100px;
+ }
     h2{
         color: grey;
-        font-size: xx-small;
+        font-size: large;
         margin-left: 2%;
     margin-right: 5%;
     text-decoration: none;
     }
 
 ul{
-    text-align:right;
+  
     text-decoration: none;}
 
 #socialLinks{
@@ -64,11 +74,27 @@ a{
     padding-right: 10px;
 }
 
-li{
+h4{
   display: inline;
-  margin-right: 5%;
+}
+
+ 
+
+#head{
+  float:right;
  
 }
-ul{
-    text-align:right;}
+#footer{
+    
+  text-align: center;
+  letter-spacing: 1px;
   
+bottom: 5%;
+margin: auto;
+width: 100%;
+
+}
+    
+     
+      
+    
