@@ -3,7 +3,6 @@ background-color: black;
 font-family: sans-serif;
 margin-top: 2%;
 margin-left: 5%;
-
 color: white;
 }
 
@@ -34,7 +33,7 @@ li{
   }
 
     h6{
-      text-align: center;
+      
   color: rgb(74, 74, 74);
  font-size: small;
 
@@ -65,8 +64,13 @@ ul{
     text-align: center;
     letter-spacing: 1px;
 }
-
-
+#subPara{
+  margin-left: 50px;
+  
+}
+#subPara2{
+  margin-left: 75px;
+}
 
 a{
     color: white;
@@ -77,8 +81,6 @@ a{
 h4{
   display: inline;
 }
-
- 
 
 #head{
   float:right;
@@ -111,7 +113,7 @@ width: 100%;
 }
 #rowOneR{
   text-align: left;
-  margin-left: 200px;
+  margin-left: 150px;
   display: inline-block;
   
 }
@@ -132,6 +134,7 @@ hr{
 }
 #aboutText{
   margin-left: 200px;
+  line-height: 40px;
 }
     
      

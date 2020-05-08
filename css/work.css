@@ -2,15 +2,15 @@ body{
     background-color:black;
     color: silver;
     margin-top: 2%;
+    margin-left: 2.45%;
     }
 
     /*Header- Logo and Navigation Bar*/
-    img{
-        
-        display: inline;
-    }
+   
     #homeIcon{
         padding-left: 2%;
+        display: inline;
+        margin-left: 10px;
     }
     #homeLink{
         text-decoration: line-through;
@@ -53,11 +53,12 @@ body{
        display: table-cell;
        vertical-align: middle;
        letter-spacing: 10px; 
-
+margin-bottom: 300px;
 
        font-family: rubik, sans-serif;
     font-weight: 400;
     font-style: normal;
+    
 
 
 
@@ -67,15 +68,14 @@ body{
       margin-top: auto;
         text-align: center;
         position: absolute; 
-        left: 50%;
-        top: 53%;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-        transform: translateX(-50%);
+       margin-left: 30px;
+        top: 10%;
         min-height: 10em;
         display: table-cell;
-        vertical-align: middle; 
+        vertical-align: middle;
+        margin-bottom: 200px; 
     }
+
     /*End Name*/
     h2{
         color: rgb(71, 70, 70);
@@ -95,14 +95,15 @@ body{
 font-weight: 600;
 
 font-style: normal;
+
 }
 
 #footer{
     text-align: center;
     letter-spacing: 1px;
 
-    position: fixed;
-    bottom: 2%;
+   
+
     margin: auto;
     width: 100%;
     
@@ -111,10 +112,24 @@ font-style: normal;
 }
 #bottomLinks{
     word-spacing: 5px;
-    
+    margin-top: 75px;
 }
 
 p{
     text-align: center;
     color: rgb(45, 43, 43);
+    margin-bottom: 50px;
+}
+
+
+#uiWorks{
+    margin-top: 30px;
+    
+   
+}
+#selWorks{
+   
+    text-align: center;
+    font-size: 60px;
+    
 }

@@ -1,27 +1,89 @@
+
 body{
     background-color:black;
     color: silver;
     margin-top: 2%;
-    margin-left: 1%;
+    margin-left: 4%;
+    padding-left: 2%;
     
     }
-
+/* here */
 img{
-        padding-left: 2%;
+         padding-left: 2%;
         display: inline;
     }
 
+  
+    
+   
+    
+    
+      #head{float: right;
+    margin-bottom: 200px;
+    
+    }
+
+
+
+    #homeIcon{
+        padding-left: 2%;
+    }
+    #homeLink{
+        text-decoration: line-through;
+        display: inline;
+    }
+        a{
+            color: white;
+            text-decoration: none;
+            
+           
+            
+        }
+        ul{
+            display: inline-block;
+        }
+        li{
+            display: inline-block;
+            text-align: right;
+            padding-right: 10px;
+            font-family: magneta, serif;
+            font-weight: 400;
+            font-style: normal;
+          }
+
+        
+          
+
+/* here */
+    
+
 h1{
     text-align: center;
-    font-family: korolev-compressed,sans-serif;
-    font-weight: 700;
-    font-style: normal;
-   font-size: 40px;
+   font-size: 30px;
    min-height: 10em;
    display: table-cell;
    vertical-align: middle;
    letter-spacing: 10px; 
+  font-family: rubik, sans-serif;
+font-weight: 400;
+font-style: normal;
 }
+
+
+#selectedWorks{
+    margin-top: 1000px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 53%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle; 
+ }
+
 h3{
     font-family: korolev-compressed,sans-serif;
     font-weight: 700;
@@ -33,48 +95,18 @@ h3{
 
 #allWorks{
     top: 10%;
-    margin-top: 10%;
     left: 50%;
-    
    
 }
 
-#selectedWorks{
-  margin-top: auto;
-    text-align: center;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    min-height: 10em;
-    vertical-align: middle; 
-    font-family: korolev-compressed,sans-serif;
-    font-weight: 700;
-    font-style: normal;
-   font-size: 40px;
-   min-height: 10em;
-   letter-spacing: 10px; 
-}
+
 
 h4{
     top: 5%;
     display: inline;
 }
 
-a{
-    color: white;
-    text-decoration: none;
-    padding-right: 10px;
-   
-}
 
-li{
-    display: inline-block;
-    text-align: right;
-
-  }
-
-
-  #head{float: right;}
 
 #footer{
     
@@ -94,8 +126,6 @@ color: rgb(74, 74, 74);
     position: relative;
     float:left;
 }
-
-    /*Header- Logo and Navigation Bar*/
   
     #homeLink{
         text-decoration: line-through;
@@ -104,3 +134,5 @@ color: rgb(74, 74, 74);
    
      
 
+
+        
