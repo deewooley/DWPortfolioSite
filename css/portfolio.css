@@ -13,12 +13,8 @@ img{
         display: inline;
     }
 
-  
-    
-   
-    
-    
-      #head{float: right;
+      #head{
+    float: right;
     margin-bottom: 200px;
     
     }
@@ -35,13 +31,13 @@ img{
         a{
             color: white;
             text-decoration: none;
-            
-           
-            
+              
         }
+
         ul{
             display: inline-block;
         }
+
         li{
             display: inline-block;
             text-align: right;
@@ -51,15 +47,12 @@ img{
             font-style: normal;
           }
 
-        
-          
-
 /* here */
     
 
 h1{
     text-align: center;
-   font-size: 30px;
+   font-size: 3000px;
    min-height: 10em;
    display: table-cell;
    vertical-align: middle;
@@ -76,6 +69,7 @@ font-style: normal;
     position: relative;
     left: 50%;
     top: 53%;
+   
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     transform: translateX(-50%);
@@ -131,8 +125,3 @@ color: rgb(74, 74, 74);
         text-decoration: line-through;
         display: inline;
         }
-   
-     
-
-
-        
