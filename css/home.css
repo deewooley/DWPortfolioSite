@@ -48,13 +48,11 @@ body{
     h1{
         text-align: center;
        
-       font-size: 30px;
+       font-size: 25px;
        min-height: 10em;
        display: table-cell;
        vertical-align: middle;
        letter-spacing: 10px; 
-
-
        font-family: rubik, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -79,9 +77,9 @@ body{
     /*End Name*/
     h2{
         color: rgb(71, 70, 70);
-        font-size: 15px;
-        letter-spacing: 1px;
-    margin-right: 5%;
+        font-size: 12px;
+        /* letter-spacing: 2px; */
+  
     position: relative;
    
     }
@@ -105,7 +103,7 @@ font-style: normal;
     bottom: 2%;
     margin: auto;
     width: 100%;
-    
+    font-size: 13px;
     
 
 }
@@ -124,17 +122,25 @@ p{
     h1{
         font-size: 20px;
         white-space: nowrap; 
+        margin-left: 0px;
     }
     h2{
-        color:green;
+        /* color:green; */
         white-space: nowrap;
         font-size:12px;
+        display: inline;
+        letter-spacing: 5px;
      
+    }
+    #divideLine{
+         color:green; 
+         margin-right: 2.5%;
+         margin-left: 2.5%;
     }
     #bottomLinks{
 
         white-space: nowrap;
-        font-size:12px;
+        font-size:px;
     }
     #footer{
         font-size: 12px;
@@ -146,16 +152,25 @@ p{
 }
 
 @media  (min-width: 500px) {
+    
     h1 {
        
-      /* font-size: 30px; */
+      /* font-size: 25px; */
       white-space: nowrap;
+  
     }
     h2 {
-        color:green;
-       
+        /* color:green; */
+       display: inline;
         /* font-size:15px; */
+        /* margin-left: 0px; */
+        letter-spacing: 7px;
       }
-      
+      #divideLine{
+        color:green; 
+        margin-right: 2%;
+        margin-left: 2%;
+   }
+  
  
   }
