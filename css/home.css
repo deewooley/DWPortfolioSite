@@ -128,13 +128,21 @@ p{
     h2{
         color:green;
         white-space: nowrap;
-        font-size:10px;
+        font-size:12px;
+     
     }
     #bottomLinks{
 
         white-space: nowrap;
-        font-size:10px;
+        font-size:12px;
     }
+    #footer{
+        font-size: 12px;
+        
+    }
+    p{
+        color: rgb(84, 81, 81);}
+  
 }
 
 @media  (min-width: 500px) {
@@ -146,6 +154,8 @@ p{
     h2 {
         color:green;
        
-        font-size:15px;
+        /* font-size:15px; */
       }
+      
+ 
   }

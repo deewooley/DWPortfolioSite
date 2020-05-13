@@ -134,7 +134,7 @@ p{
    
    
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 40%;
  
     margin-top: auto;
@@ -158,3 +158,49 @@ p{
     margin-bottom: 15%;
     
 }
+
+@media(max-width:900px){
+    h1{
+        font-size: 15px;
+        white-space: nowrap; 
+    }
+    h2{
+        color:green;
+        white-space: nowrap;
+        font-size:12px;
+     
+    }
+    #bottomLinks{
+
+        white-space: nowrap;
+        font-size:12px;
+    }
+    #footer{
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    p{
+        color: rgb(84, 81, 81);}
+    
+        #selWorks{
+            font-size: 15px;
+        }
+  
+}
+
+@media  (min-width: 500px) {
+    h1 {
+       
+      /* font-size: 30px; */
+      white-space: nowrap;
+    }
+    h2 {
+        color:green;
+       
+        /* font-size:15px; */
+      }
+      
+ 
+  }
+
