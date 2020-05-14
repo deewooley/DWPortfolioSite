@@ -119,6 +119,64 @@ p{
 }
 
 
+/*BUTTON  */
+button{
+position: relative;
+height: 40px;
+width: 130px;
+border: none;
+outline: purple;
+/* color: rgb(40, 38, 38); */
+color: green;
+background: black;
+cursor: pointer;
+border-radius: 5px;
+font-size: 15px;
+/* font-family: 'Raleway', sans-serif; */
+font-family: magneta, serif;
+letter-spacing: 5px;
+font-weight: 600;
+
+font-style: normal;
+}
+button:before{
+position: absolute;
+content: '';
+top: -2px;
+left: -2px;
+height: calc(100% + 4px);
+width: calc(100% + 4px);
+border-radius: 5px;
+z-index: -1;
+opacity: 0;
+filter: blur(5px);
+background: linear-gradient(45deg, #052d02, #48ff00,#000000);
+background-size: 300%;
+transition: opacity 1s ease-out;
+animation: animate 10s ;
+/* animation: animate 30s linear infinite; */
+
+}
+button:hover:before{
+opacity: 1;
+
+}
+button:hover:active{
+background: black;
+opacity: .1;
+}
+button:hover:active:before{
+filter: blur(2px);
+}
+@keyframes animate {
+0% { background-position: 0 0; }
+50% { background-position: 100% 0; }
+100% { background-position: 0 0; }
+}
+
+
+/*BUTTON  */
+
 @media(max-width:900px){
     h1{
         font-size: 17px;
