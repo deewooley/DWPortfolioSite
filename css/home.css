@@ -2,6 +2,7 @@ body{
     background-color:black;
     color: silver;
     margin-top: 2%;
+    scroll-behavior: smooth;
     }
 
     /*Header- Logo and Navigation Bar*/
@@ -120,7 +121,7 @@ p{
 
 @media(max-width:900px){
     h1{
-        font-size: 20px;
+        font-size: 17px;
         white-space: nowrap; 
         margin-left: 0px;
     }
@@ -143,7 +144,7 @@ p{
         font-size:px;
     }
     #footer{
-        font-size: 12px;
+        font-size: 14px;
         
     }
     p{
@@ -168,8 +169,8 @@ p{
       }
       #divideLine{
         color:green; 
-        margin-right: 2%;
-        margin-left: 2%;
+        margin-right: 1%;
+        margin-left: 1%;
    }
   
  

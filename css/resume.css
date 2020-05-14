@@ -1,6 +1,6 @@
 body{
 background-color: black;
-
+scroll-behavior: smooth;
 
 margin-top: 2%;
 
@@ -112,7 +112,7 @@ width: 100%;
 
   
 }
-#rowOneL{
+/* #rowOneL{
   text-align: left;
   margin-left: 200px;
   display: inline-block;
@@ -123,10 +123,10 @@ width: 100%;
   margin-left: 150px;
   display: inline-block;
   
-}
-#workTitle{
+} */
+/* #workTitle{
   margin-left: 200px;
-}
+} */
 hr{
   margin-left: 200px;
   text-align: left;
@@ -152,14 +152,28 @@ hr{
     width: 40%;
     margin:30px;
     margin-left: 200px;
+    border-bottom: 1px solid #ccc;
+    border-collapse: collapse;
   }
+
+
+
+  #bottomRow{
+    border-bottom: 1px solid #ccc;
+  }
+
   
   tr {
     margin-left: 20%;
     height: 50px;
+    border: solid;
+    border-width: 1px 0;
+    border-bottom: 1px solid #ccc;
+    /* border-bottom: 1px solid #ccc; */
   }  
   td {
     height: 50px;
+    /* border-bottom: 1px solid #ccc; */
   
   }   
     
@@ -168,11 +182,11 @@ hr{
   @media(max-width:1000px){
     h1{
         font-size: 20px;
-        white-space: nowrap; 
+        /* white-space: nowrap;  */
     }
     h2{
         color:green;
-        white-space: nowrap;
+        /* white-space: nowrap; */
         font-size:12px;
      
     }
@@ -187,10 +201,15 @@ hr{
     }
     p{
         color: rgb(84, 81, 81);
-        white-space: nowrap;
+        white-space: pre-line;
+        /* white-space: nowrap; */
       }
       tr{
         white-space: nowrap;
+      }
+      table{
+        
+        font-size: 10px;
       }
   
 }
@@ -213,3 +232,4 @@ hr{
       
  
   }
+
