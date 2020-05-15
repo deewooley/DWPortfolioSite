@@ -150,8 +150,8 @@ hr{
      
   table {
     width: 40%;
-    margin:30px;
-    margin-left: 200px;
+    /* margin:30px; */
+    /* margin-left: 200px; */
     border-bottom: 1px solid #ccc;
     border-collapse: collapse;
   }
@@ -177,7 +177,10 @@ hr{
   
   }   
     
-
+#rowBottomLine{
+  padding-bottom: 10px;
+  /* bottom: 200px; */
+}
 
   @media(max-width:1000px){
     h1{
@@ -202,14 +205,16 @@ hr{
     p{
         color: rgb(84, 81, 81);
         white-space: pre-line;
+        margin-left: 20px;
         /* white-space: nowrap; */
       }
       tr{
         white-space: nowrap;
       }
       table{
-        
-        font-size: 10px;
+        table-layout: fixed;
+ 
+        font-size: 12px;
       }
   
 }
@@ -223,11 +228,22 @@ hr{
     }
     h2 {
         color:green;
+        
        
         /* font-size:15px; */
       }
       tr{
         white-space: nowrap;
+      }
+      table{
+        margin-left: 150px;
+        /* font-size: px; */
+        table-layout: fixed;
+        width: 700px;
+      }
+
+      p{
+        margin-left: 00px;
       }
       
  

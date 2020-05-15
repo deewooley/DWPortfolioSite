@@ -2,7 +2,7 @@ body{
     background-color:black;
     color: silver;
     margin-top: 2%;
-    margin-left: 2.45%;
+  
     
     /* scroll-behavior: smooth; */
     }
@@ -12,7 +12,7 @@ body{
     #homeIcon{
         padding-left: 2%;
         display: inline;
-        margin-left: 10px;
+        /* margin-left: 100px; */
     }
     /* #homeLink{
         text-decoration: line-through;
@@ -62,6 +62,8 @@ body{
 
 
     }
+  
+
 
     /* #nameTitle{ 
       margin-top: auto;
@@ -150,6 +152,10 @@ p{
         display: table-cell;
         vertical-align: middle; 
 }
+#dwImage{
+    /* display: inline-block; */
+    float: left;
+}
 
 #headSel{
     margin-top: 25%;
@@ -164,6 +170,7 @@ p{
     h1{
         font-size: 15px;
         white-space: nowrap; 
+        margin-left: 2.45%;
     }
     h2{
         color:green;
@@ -196,6 +203,7 @@ p{
        
       /* font-size: 30px; */
       white-space: nowrap;
+      margin-left: 2.45%;
     }
     h2 {
         color:green;
