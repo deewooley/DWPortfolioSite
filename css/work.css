@@ -250,3 +250,29 @@ and resume titles
         margin-left: auto;
         text-align: center;
     }
+
+
+
+
+
+
+
+  #fadeImg {
+    position:relative;
+    /* height:281px;
+    width:450px; */
+    margin:0 auto;
+  }
+  
+  #fadeImg img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  #fadeImg img.top:hover {
+    opacity:0;
+  }
