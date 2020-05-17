@@ -3,7 +3,7 @@ body{
     color: silver;
     margin-top: 2%;
   
-    
+
     /* scroll-behavior: smooth; */
     }
 
@@ -104,6 +104,12 @@ body{
         transform: translateX(-50%);
         min-height: 10em;
         display: table-cell;
+
+
+        letter-spacing: 10px; 
+        font-family: rubik, sans-serif;
+     font-weight: 400;
+     font-style: normal;
     }
 
 /* #underName{
@@ -176,6 +182,11 @@ p{
         font-size: 15px;
         white-space: nowrap; 
         margin-left: 2.45%;
+        letter-spacing: 10px; 
+        font-family: rubik, sans-serif;
+     font-weight: 400;
+     font-style: normal;
+        
     }
     h2{
         color:green;
@@ -205,7 +216,10 @@ p{
 
 @media  (min-width: 500px) {
     h1 {
-       
+        letter-spacing: 10px; 
+        font-family: rubik, sans-serif;
+     font-weight: 400;
+     font-style: normal;
       /* font-size: 30px; */
       white-space: nowrap;
       margin-left: 2.45%;
@@ -242,20 +256,20 @@ and resume titles
     text-align: center;
     width: 200px;
   }
-  img
-{
+  /* img
+{ */
     /* height: 250px;
     width: 500px; */
-    -webkit-transition: background-image 1s ease-in-out;
-}
+    /* -webkit-transition: background-image 1s ease-in-s
+} */
   
-  /* section {
+  section {
     display: flex; 
-  } */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* height: 100%;
-    */
+ 
+    align-items: center; 
+    justify-content: center;
+    height: 100%;
+  }
     nav{
         position: relative; 
         margin-left: auto;
@@ -267,13 +281,13 @@ and resume titles
 
 
 
-
-  /* #fadeImg {
+/* 
+  #fadeImg {
     position:relative; */
     /* height:281px;
     width:450px; */
-    /* margin:0 auto; */
-  /* }
+    /* margin:0 auto;
+ }
   
   #fadeImg img {
     position:absolute;
@@ -286,4 +300,4 @@ and resume titles
   
   #fadeImg img.top:hover {
     opacity:0;
-  } */
+  }  */
