@@ -17,7 +17,7 @@ font-style: normal;
  
   border-bottom: 1px solid green;
   display: inline;
-
+  margin-right: 0em;
 
 }
 
@@ -252,6 +252,10 @@ hr{
         font-size: 12px;
         
     }
+
+    #pageSelected{
+    display: inline-block;
+    }
     p{
         color: rgb(84, 81, 81);
         white-space: pre-line;
@@ -263,7 +267,6 @@ hr{
       }
       table{
         table-layout: fixed;
- 
         font-size: 12px;
       }
   
