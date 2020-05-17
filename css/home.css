@@ -18,11 +18,7 @@ body{
         text-decoration: line-through;
         display: inline;
     }
-        a{
-            color: white;
-            text-decoration: none;
-         
-        }
+       
         #hyphen{
             color: green;
             display: inline-block;
@@ -42,8 +38,13 @@ body{
         
           #head{float: right;
             padding-right: 10px;
-          
+
         }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+   
      
 
 /*End Header- Logo and Navigation Bar*/
@@ -70,7 +71,7 @@ body{
         text-align: center;
         position: absolute; 
         left: 50%;
-        top: 53%;
+        top: 55%;
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
         transform: translateX(-50%);
@@ -115,10 +116,15 @@ font-style: normal;
     word-spacing: 5px;
     
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+
 
 p{
     text-align: center;
-    color: rgb(45, 43, 43);
+    color: rgb(57, 53, 53);
 }
 
 

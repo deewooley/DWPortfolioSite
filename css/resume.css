@@ -1,5 +1,5 @@
 body{
-  background-color:rgb(1, 12, 23);
+  background-color:rgb(2, 13, 24);
 scroll-behavior: smooth;
 
 margin-top: 2%;
@@ -12,6 +12,13 @@ color: white;
 font-family: rubik, sans-serif;
 font-weight: 400;
 font-style: normal;
+}
+#linkSelected{
+ 
+  border-bottom: 1px solid green;
+  display: inline;
+
+
 }
 
 h1{
@@ -32,12 +39,12 @@ br{
     margin-bottom: 5px;
     line-break: auto;
 }
-li{
+/* li{
     display: inline;
   
     font-family: serif;
   
-  }
+  } */
 
     h6{
       
@@ -50,9 +57,13 @@ li{
         text-decoration: line-through;
        display: inline;
     }
+    /* #homeIcon{
+      padding-right: 200px;
+    } */
     
  #topName{
    margin-top: 100px;
+  display: inline-block;
  }
     h2{
         color: grey;
@@ -62,9 +73,7 @@ li{
     text-decoration: none;
     }
 
-ul{
-  
-    text-decoration: none;}
+
 
 #socialLinks{
   
@@ -78,21 +87,59 @@ ul{
 #subPara2{
   margin-left: 75px;
 }
+/* 
 
+/*  */
+ul{
+  display: inline-block;
+}
+li{
+  display: inline-block;
+  text-align: right;
+  padding-right: 10px;
+  font-family: magneta, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#head{float: right;
+  padding-right: 10px;
+
+}
 a{
-    color: white;
-    text-decoration: none;
-    padding-right: 10px;
+  color: white;
+  text-decoration: none;
+
+}
+
+
+
+/* a{
+  color: white;
+  text-decoration: none;
+  padding-right: 10px;
+} */
+
+
+
+
+
+/*  */
+#contactLink{
+padding-left: 5px;
+padding-right: 5px;
+
 }
 
 h4{
   display: inline;
 }
 
-#head{
+/* #head{
   float:right;
  
-}
+} */
 #footer{
     
   text-align: center;
@@ -101,6 +148,9 @@ h4{
 bottom: 5%;
 margin: auto;
 width: 100%;
+font-family: magneta, serif;
+font-weight: 400;
+font-style: normal;
 
 }
 
@@ -245,6 +295,10 @@ hr{
       p{
         margin-left: 00px;
       }
+      #footer{
+        font-size: 12px;
+        
+    }
       
  
   }

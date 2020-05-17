@@ -14,10 +14,8 @@ body{
         display: inline;
         /* margin-left: 100px; */
     }
-    /* #homeLink{
-        text-decoration: line-through;
-        display: inline;
-    } */
+   
+
         a{
             color: white;
             text-decoration: none; 
@@ -27,6 +25,13 @@ body{
             display: inline-block;
             
         }
+        #linkSelected{
+ 
+            border-bottom: 2px solid green;
+            display: inline;
+          
+          
+          }
         li{
             display: inline-block;
             text-align: right;
@@ -237,6 +242,12 @@ and resume titles
     text-align: center;
     width: 200px;
   }
+  img
+{
+    /* height: 250px;
+    width: 500px; */
+    -webkit-transition: background-image 1s ease-in-out;
+}
   
   /* section {
     display: flex; 
@@ -257,12 +268,12 @@ and resume titles
 
 
 
-  #fadeImg {
-    position:relative;
+  /* #fadeImg {
+    position:relative; */
     /* height:281px;
     width:450px; */
-    margin:0 auto;
-  }
+    /* margin:0 auto; */
+  /* }
   
   #fadeImg img {
     position:absolute;
@@ -275,4 +286,4 @@ and resume titles
   
   #fadeImg img.top:hover {
     opacity:0;
-  }
+  } */
