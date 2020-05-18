@@ -2,6 +2,11 @@ body{
     background-color:rgb(1, 12, 23);
     color: silver;
     margin-top: 2%;
+
+    background-color:rgb(2, 13, 24);
+    color: silver;
+    margin-top: 2%;
+    scroll-behavior: smooth;
   
 
     /* scroll-behavior: smooth; */
@@ -9,11 +14,25 @@ body{
 
     /*Header- Logo and Navigation Bar*/
    
+    /* #homeIcon{
+        padding-left: 2%;
+        display: inline;
+        margin-left: 100px;
+    } */
+
+    img{
+        display: inline;
+    }
     #homeIcon{
         padding-left: 2%;
         display: inline;
-        /* margin-left: 100px; */
+        margin-left: 100px;
     }
+    #homeLink{
+        text-decoration: line-through;
+        display: inline;
+    }
+  
    
 
         a{

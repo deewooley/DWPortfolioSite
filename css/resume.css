@@ -15,9 +15,10 @@ font-style: normal;
 }
 #linkSelected{
  
-  border-bottom: 1px solid green;
+  border-bottom: 2px solid green;
+
   display: inline;
-  margin-right: 0em;
+
 
 }
 
