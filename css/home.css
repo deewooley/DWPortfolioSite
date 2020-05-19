@@ -163,8 +163,17 @@ p{
 }
 
 
-@media(max-width:900px){
+@media(max-width:1000px){
+    #nameTitle{
+        top: 45%;
+    }
     h1{
+        /* top: 55%;
+        -ms-transform: translateY(-50%); */
+        /* transform: translateY(-50%);
+        transform: translateX(-50%); */
+
+        top: 30%;
         font-size: 17px;
         white-space: nowrap; 
        
@@ -185,11 +194,13 @@ p{
     #bottomLinks{
 
         white-space: nowrap;
-        
+        /* font-size: 2px; */
         top: 90%;
   
        
     }
+    body{margin-left: 10px;
+    margin-bottom: 2px;}
 
     #footer{
         
@@ -197,16 +208,18 @@ p{
             /* font-size: 12px; */
             /* display: inline; */
             /* position: fixed; */
+           
             bottom: 0px;
             width: 100%;
             position: relative;
             text-align: center;
             text-align: center;
-          
+          font-size: 12px;
  
     }
     p{
         color:rgb(217, 217, 217);
+    
 }
   
 }
