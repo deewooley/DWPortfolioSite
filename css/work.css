@@ -45,11 +45,24 @@ body{
             
         }
         #linkSelected{
- 
-            border-bottom: 2px solid green;
+            color:green ;
+            
+            /* border-bottom: 2px solid green; */
             display: inline;
           
           
+          }
+
+
+          a:hover{
+            /* background-color: pink; */
+            color:red;
+            cursor: pointer;
+            -webkit-transition: color .2s ease-out;
+            -moz-transition: color .2s ease-out;
+            -o-transition: color .2s ease-out;
+            transition: color .2s ease-out;
+
           }
         li{
             display: inline-block;

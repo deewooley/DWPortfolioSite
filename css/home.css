@@ -9,7 +9,7 @@ body{
         margin: 0 0.5rem;
       
         animation:animate__fadeIn ; /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 2s; /* don't forget to set a duration! */
+        animation-duration: 5s; /* don't forget to set a duration! */
       }
 
 
@@ -50,6 +50,16 @@ body{
             color:rgb(217, 217, 217);
             text-decoration: none;
         }
+        a:hover{
+            /* background-color: pink; */
+            /* color:red; */
+            cursor: pointer;
+            -webkit-transition: color .2s ease-out;
+            -moz-transition: color .2s ease-out;
+            -o-transition: color .2s ease-out;
+            transition: color .2s ease-out;
+
+          }
    
      
 
@@ -130,7 +140,7 @@ a{
 
 p{
     text-align: center;
-    color: rgb(57, 53, 53);
+    color: rgb(67, 63, 63);
     /* color:rgb(242,242,242); */
 }
 
@@ -160,6 +170,8 @@ p{
         font-size:px;
     }
     #footer{
+        
+       top: 30%;
         font-size: 14px;
         
     }
