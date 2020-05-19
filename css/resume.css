@@ -15,8 +15,8 @@ font-style: normal;
 }
 #linkSelected{
  
-  border-bottom: 2px solid green;
-
+  /* border-bottom: 2px solid green; */
+color:green;
   display: inline;
 
 
@@ -111,9 +111,20 @@ li{
 a{
   color: white;
   text-decoration: none;
+  display: inline-block;
 
 }
+a:hover{
+  /* background-color: pink; */
+  /* color:red; */
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition: color .2s ease-out;
+  -moz-transition: color .2s ease-out;
+  -o-transition: color .2s ease-out;
+  transition: color .2s ease-out;
 
+}
 
 
 /* a{
