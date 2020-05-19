@@ -9,18 +9,31 @@
 <script src="../scripts/home.js"></script>
 </head>
 <body>
-    
-    <div id = "homeIcon">
-    <a href="../html/home.html"><img src = "../images/logo2.png" width ="40px" style="float:left;" style="display:inline;"> </a>
+    <a href="../html/home.html"><img id="homeIcon" src = "../images/logo2.png" width ="40px" style="float:left;"></a>
+   
+    <div id = "head">
+
+
+
+        <ul>
+            <!-- <div id="homeLink"><li><a href="../html/home.html">Home</a></li></div> -->
+            <li><a href="../html/work.html" onmouseover="this.bgColor='white'; this.style.color='green'" onmouseout="this.bgColor='green'; this.style.color='white'">Work</a></li>
+            <!-- <div id = "pageSelected">  -->
+                <li><a id = "linkSelected" href="../html/resume.html" >About</a></li>
+            <li><a href="../images/SiteResume.pdf" onmouseover="this.bgColor='white'; this.style.color='green'" onmouseout="this.bgColor='green'; this.style.color='white'">Resume</a></li>
+          </ul>
+        </div>
+    <!-- <div id = "homeIcon"> -->
+    <!-- <a href="../html/home.html"><img src = "../images/logo2.png" width ="40px" style="float:left;" style="display:inline;"> </a>
     </div>
     <div id = "head">
     <ul>
-        <!-- <div id="homeLink"><li><a href="../html/home.html">Home</a></li></div> -->
-        <li><a href="../html/work.html" onmouseover="this.bgColor='white'; this.style.color='green'" onmouseout="this.bgColor='green'; this.style.color='white'">Work</a></li>
+         <div id="homeLink"><li><a href="../html/home.html">Home</a></li></div> 
+        <li><a href="../html/work.html" onmouseover="this.bgColor='white'; this.style.color='green'" onmouseout="this.bgColor='green'; this.style.color='white'" style="display:inline;">Work</a></li>
         <li><a href="../html/resume.html" onmouseover="this.bgColor='white'; this.style.color='green'" onmouseout="this.bgColor='green'; this.style.color='white'">About</a></li>
         <li><a href="../images/SiteResume.pdf" onmouseover="this.bgColor='white'; this.style.color='green'" onmouseout="this.bgColor='green'; this.style.color='white'">Resume</a></li>
       </ul>
-    </div>
+    </div> -->
     
 <div id="nameTitle">
     <!-- <img src="../images/logo2.png" width=420px; height="200"> -->
@@ -30,6 +43,7 @@
 <h2 class="animate__animated animate__fadeIn" id = "divideLine">|</h2>
 <h2 class="animate__animated animate__fadeIn" id="underName">BUSINESS</h2>
 <h2 class="animate__animated animate__fadeIn" id = "divideLine">|</h2>
+
 <h2 class="animate__animated animate__fadeIn" id="underName">TECH</h2>
 
 <br>
@@ -44,12 +58,18 @@
 
 <div id="footer">
     <h4> 
-        <a id = "footerLink" href="https://www.behance.net/deewoole" alt = "Behance Link">Behance  </a>
+        <a id = "footerLink" href="https://www.behance.net/deewoole" alt = "Behance Link"> <div id = "linkClickable">Behance </div></a>
+        | 
         <a id = "footerLink" href="https://www.linkedin.com/in/dee-wooley-9a61ab16a/" alt = "LinkedIn Link">LinkedIn  </a>
+        | 
         <a id = "footerLink" href="https://www.instagram.com/deewooley/?hl=en" alt = "Instagram Link">Instagram  </a>
+        | 
         <a id = "footerLink" href="https://twitter.com/dee_wooley"> Twitter</a>
+        | 
         <a id = "footerLink" href="https://github.com/deewooley" alt = "Github Link">Github  </a>
+        | 
         <a id = "footerLink" href="https://www.imdb.com/name/nm9617866/" alt = "I M D B Link">IMDb  </a>
+        | 
         <a id = "footerLink" href="mailto:dwooley6@gatech.edu" alt = "Email Link">Email  </a>
        </h4>
 

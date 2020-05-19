@@ -28,14 +28,7 @@ h1{
    
 
 }
- 
-#dwPhoto1{
-  
-   
-    width:23%;
-   
-    
-}
+
 br{
     margin-top: 50px;
     margin-bottom: 5px;
@@ -49,14 +42,20 @@ br{
  font-size: small;
 
     }
+    a{
+      display: inline;
+       padding: 7px;
+      margin: -7px;}
     
     #homeLink{
         text-decoration: line-through;
        display: inline;
     }
-    /* #homeIcon{
+    #homeIcon{
       padding-right: 200px;
-    } */
+      margin-top: 20px;
+     
+    } 
     
  #topName{
    margin-top: 100px;
@@ -284,6 +283,15 @@ hr{
         table-layout: fixed;
         font-size: 12px;
       }
+      .dwPhoto1{
+        /* display: ;
+         */
+         /* float: right; */
+         float: right;
+         height:900px;
+  
+        /* style="float: left; */
+      }
   
 }
 
@@ -320,6 +328,15 @@ hr{
         bottom: 0;
         width: 100%
         
+    }
+    #dwPhoto1{
+      /* display: ;
+       */
+       float: left;
+   
+       height:500px;
+
+      /* style="float: left; */
     }
       
  

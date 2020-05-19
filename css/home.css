@@ -3,6 +3,7 @@ body{
     color: silver;
     margin-top: 2%;
     scroll-behavior: smooth;
+        margin-left: 2.45%;
     }
     .my-element {
         display: inline-block;
@@ -18,7 +19,8 @@ body{
         display: inline;
     }
     #homeIcon{
-        padding-left: 2%;
+        padding-right: 200px;
+        margin-top: 20px;
     }
     #homeLink{
         text-decoration: line-through;
@@ -39,6 +41,8 @@ body{
             font-family: magneta, serif;
             font-weight: 400;
             font-style: normal;
+
+            
           }
 
         
@@ -47,8 +51,9 @@ body{
 
         }
         a{
-            color:rgb(217, 217, 217);
+            color: white;
             text-decoration: none;
+            display: inline-block;
         }
         a:hover{
             /* background-color: pink; */
@@ -147,25 +152,50 @@ font-style: normal;
 h6{color: rgb(74, 74, 74);
     font-size: small;}
 #bottomLinks{
-    word-spacing: 5px;
+    word-spacing: 10px;
     
 }
-a{
+/* a{
     color:rgb(217, 217, 217);
     text-decoration: none;
+    display: block; 
+    
+} */
+
+a{
+    display: inline;
+     padding: 7px;
+    margin: -7px;}
+    
+#linkClickable{ 
+    display: inline;
 }
+a{
+    display: inline;
+     padding: 7px;
+    margin: -7px;}
+    /* width: 200px;
+    height: 200px;
+
+/* #linkClickable{
+    display: inline;
+}
+.a{
+    display: inline;
+     padding: 20px;
+    margin: -20px;}
 
 
 p{
     text-align: center;
     color: rgb(67, 63, 63);
     /* color:rgb(242,242,242); */
-}
+
 
 
 @media(max-width:1000px){
     #nameTitle{
-        top: 45%;
+        top: 50%;
     }
     h1{
         /* top: 55%;
@@ -214,7 +244,7 @@ p{
             position: relative;
             text-align: center;
             text-align: center;
-          font-size: 12px;
+          font-size: 13px;
  
     }
     p{
@@ -253,10 +283,6 @@ p{
         position: fixed;
         bottom: 0;
         width: 100%
-
-
-        
-
 }
  
   }

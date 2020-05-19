@@ -11,6 +11,7 @@ body{
 img{
          padding-left: 2%;
         display: inline;
+      
     }
 
       #head{
@@ -23,6 +24,7 @@ img{
 
     #homeIcon{
         padding-left: 2%;
+        top: 50px;
     }
     #homeLink{
         text-decoration: line-through;
@@ -86,7 +88,10 @@ h3{
     letter-spacing: 2px;
     margin-left: 30px;
 }
-
+a{
+    display: inline;
+     padding: 7px;
+    margin: -7px;}
 #allWorks{
     top: 10%;
     left: 50%;

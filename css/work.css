@@ -27,10 +27,12 @@ body{
         padding-left: 2%;
         display: inline;
         margin-left: 100px;
+        margin-left: 20px;
     }
     #homeLink{
         text-decoration: line-through;
         display: inline;
+       
     }
   
    
@@ -225,6 +227,10 @@ p{
      font-style: normal;
         
     }
+    a{
+        display: inline;
+         padding: 7px;
+        margin: -7px;}
     h2{
         color:green;
         white-space: nowrap;
