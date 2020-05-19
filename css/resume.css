@@ -29,10 +29,11 @@ h1{
 
 }
  
-.dwPhoto{
+#dwPhoto1{
   
-    margin-top: 100px;
-    width:40%;
+   
+    width:23%;
+   
     
 }
 br{
@@ -40,12 +41,7 @@ br{
     margin-bottom: 5px;
     line-break: auto;
 }
-/* li{
-    display: inline;
-  
-    font-family: serif;
-  
-  } */
+
 
     h6{
       
@@ -204,7 +200,10 @@ hr{
 #aboutText{
   margin-left: 200px;
   line-height: 40px;
+  display: inline;
 }
+#about{ display: inline;}
+#aboutText{ display: inline;}
 /* p{  font-family: magneta, serif;
   font-weight: 400;
   font-style: normal;} */
@@ -263,6 +262,10 @@ hr{
     #footer{
         font-size: 12px;
         
+        position: fixed;
+        bottom: 0;
+        width: 100%
+        
     }
 
     #pageSelected{
@@ -312,6 +315,10 @@ hr{
       }
       #footer{
         font-size: 12px;
+        
+        position: fixed;
+        bottom: 0;
+        width: 100%
         
     }
       
