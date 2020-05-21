@@ -272,7 +272,8 @@ hr{
     }
     p{
         color: rgb(84, 81, 81);
-        white-space: pre-line;
+        white-space: unset;
+        font-size: 12px;
         margin-left: 20px;
         /* white-space: nowrap; */
       }
@@ -283,12 +284,12 @@ hr{
         table-layout: fixed;
         font-size: 12px;
       }
-      .dwPhoto1{
+      #dwPhoto1{
         /* display: ;
          */
          /* float: right; */
-         float: right;
-         height:900px;
+         float: right; 
+         /* height:900px;
   
         /* style="float: left; */
       }
@@ -329,16 +330,48 @@ hr{
         width: 100%
         
     }
-    #dwPhoto1{
-      /* display: ;
-       */
-       float: left;
+ 
+
+    #dwContent {
+      height: 10em;
+      position: relative }
+      #allContent{
+        margin: 0;
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) ;
+        height:500px
+      }
+#allContent p {
+      margin: 0;
+      /* background: black; */
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%) }
+      
+      
+      #allContent img {
+        margin: 0;
+        /* background: black; */
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
+
+   #deePhoto1{
+      
+       /* float: left; */
    
        height:500px;
 
-      /* style="float: left; */
-    }
-      
+ 
+    } 
  
   }
 

@@ -193,7 +193,7 @@ p{
 
 
 
-@media(max-width:1000px){
+@media(max-width:1000px), (max-height:500px)  {
     #nameTitle{
         top: 50%;
     }
@@ -254,7 +254,7 @@ p{
   
 }
 
-@media  (min-width: 500px) {
+@media  (min-width: 500px), screen and( min-width: 1000px){
     
     h1 {
        
@@ -273,6 +273,7 @@ p{
         color:rgb(0,223,60); 
         margin-right: 1%;
         margin-left: 1%;
+  
    }
    #footer{
         
@@ -286,3 +287,5 @@ p{
 }
  
   }
+
+  
