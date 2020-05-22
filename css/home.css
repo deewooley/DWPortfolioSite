@@ -19,7 +19,10 @@ body{
         display: inline;
     }
     #homeIcon{
-        padding-right: 200px;
+        padding-right: 5px;
+        /* padding-top: 5px; */
+        padding-bottom: 5px;
+        /* padding-left: 5px; */
         margin-top: 20px;
     }
     #homeLink{
@@ -174,22 +177,7 @@ a{
     display: inline;
      padding: 7px;
     margin: -7px;}
-    /* width: 200px;
-    height: 200px;
 
-/* #linkClickable{
-    display: inline;
-}
-.a{
-    display: inline;
-     padding: 20px;
-    margin: -20px;}
-
-
-p{
-    text-align: center;
-    color: rgb(67, 63, 63);
-    /* color:rgb(242,242,242); */
 
 
 
