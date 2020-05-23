@@ -7,22 +7,16 @@ body{
     }
     .my-element {
         display: inline-block;
-        /* margin: 0 0.5rem; */
-      
-        animation:animate__fadeIn ; /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 5s; /* don't forget to set a duration! */
+        animation:animate__fadeIn ;
+        animation-duration: 5s;
       }
 
-
-    /*Header- Logo and Navigation Bar*/
     img{
         display: inline;
     }
     #homeIcon{
         padding-right: 5px;
-        /* padding-top: 5px; */
         padding-bottom: 5px;
-        /* padding-left: 5px; */
         margin-top: 20px;
     }
     #homeLink{
@@ -59,8 +53,7 @@ body{
             display: inline-block;
         }
         a:hover{
-            /* background-color: pink; */
-            /* color:red; */
+   
             cursor: pointer;
             -webkit-transition: color .2s ease-out;
             -moz-transition: color .2s ease-out;
@@ -68,12 +61,7 @@ body{
             transition: color .2s ease-out;
 
           }
-   
-     
 
-/*End Header- Logo and Navigation Bar*/
-
-/*Name*/
     h1{
         text-align: center;
        
@@ -125,15 +113,7 @@ font-style: normal;
 }
 
 #footer{
-    /* text-align: center;
 
-
-    position: fixed;
-    bottom: 2%;
-    margin: auto;
-    width: 100%;
-    font-size: 13px;
-    top: 30%; */
     font-size: 13px;
     letter-spacing: 1px;
 
@@ -145,7 +125,7 @@ font-style: normal;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     transform: translateX(-50%);
-    /* min-height: 10em; */
+
     display: table-cell;
     vertical-align: middle; 
     
@@ -158,12 +138,7 @@ h6{color: rgb(74, 74, 74);
     word-spacing: 10px;
     
 }
-/* a{
-    color:rgb(217, 217, 217);
-    text-decoration: none;
-    display: block; 
-    
-} */
+
 
 a{
     display: inline;
@@ -186,10 +161,7 @@ a{
         top: 50%;
     }
     h1{
-        /* top: 55%;
-        -ms-transform: translateY(-50%); */
-        /* transform: translateY(-50%);
-        transform: translateX(-50%); */
+    
 
         top: 30%;
         font-size: 17px;
@@ -197,7 +169,7 @@ a{
        
     }
     h2{
-        /* color:green; */
+
         white-space: nowrap;
         font-size:12px;
         display: inline;
@@ -206,13 +178,11 @@ a{
     }
     #divideLine{
          color:rgb(0,223,60); 
-         /* margin-right: 2.5%; */
-         /* margin-left: 2.5%; */
+
     }
     #bottomLinks{
 
         white-space: nowrap;
-        /* font-size: 2px; */
         top: 90%;
   
        
@@ -221,12 +191,7 @@ a{
     margin-bottom: 2px;}
 
     #footer{
-        
-     
-            /* font-size: 12px; */
-            /* display: inline; */
-            /* position: fixed; */
-           
+  
             bottom: 0px;
             width: 100%;
             position: relative;
@@ -245,16 +210,14 @@ a{
 @media  (min-width: 500px), screen and( min-width: 1000px){
     
     h1 {
-       
-      /* font-size: 25px; */
+     
       white-space: nowrap;
   
     }
     h2 {
-        /* color:green; */
+   
        display: inline;
-        /* font-size:15px; */
-        /* margin-left: 0px; */
+       
         letter-spacing: 7px;
       }
       #divideLine{
@@ -264,11 +227,7 @@ a{
   
    }
    #footer{
-        
-    /* top: 30%; */
-   
-        /* font-size: 12px; */
-        
+ 
         position: fixed;
         bottom: 0;
         width: 100%
