@@ -25,7 +25,7 @@ body{
     }
        
         #hyphen{
-            color:rgb(0,223,60);
+            color:rgb(181,1,225);
             display: inline-block;
         }
         ul{
@@ -82,11 +82,11 @@ body{
     text-align: center;
     color: rgb(97, 95, 95);
     letter-spacing: 2px; 
-    font-family: rubik, sans-serif;
+    /* font-family: rubik, sans-serif;
  font-weight: 400;
  font-style: normal;
 position: relative;
-font-size: 13px;
+font-size: 13px; */
 
 
 }

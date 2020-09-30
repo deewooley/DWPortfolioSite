@@ -1,5 +1,8 @@
 body{
-    background-color:rgb(13, 27, 41);
+    /* background-color:rgb(13, 27, 41); */
+    /* background-color:rgb(2, 13, 24);
+     */
+     background-color: black;
     color: white;
     margin-top: 2%;
     scroll-behavior: smooth;
